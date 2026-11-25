@@ -1,0 +1,65 @@
+name: Update Clipping Feed & Audit Platforms
+
+on:
+  schedule:
+    # Stage 2: Hourly deterministic campaign feed refresh
+    - cron: "0 * * * *"
+    # Stage 0: Weekly Monday 06:00 UTC trusted platform liveness audit
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Pipeline stage to run"
+        required: true
+        default: "scrape"
+        type: choice
+        options:
+          - scrape
+          - discover
+          - both
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Set up Python 3.11
+        run: uv python install 3.11
+
+      - name: Install clip-scout
+        run: uv sync --extra dev
+
+      - name: Run weekly platform discovery audit (Stage 0)
+        if: >-
+          github.event.schedule == '0 6 * * 1' ||
+          github.event.inputs.mode == 'discover' ||
+          github.event.inputs.mode == 'both'
+        run: uv run clipscout discover --format table
+
+      - name: Run hourly campaign feed scrape (Stage 2)
+        if: >-
+          github.event.schedule != '0 6 * * 1' ||
+          github.event.inputs.mode == 'scrape' ||
+          github.event.inputs.mode == 'both'
+        run: uv run clipscout scrape --profile profile.example.json
+
+      - name: Commit updated JSON feeds if changed
+        run: |
+          git config user.name "clip-scout-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/platforms.json data/campaigns.json
+          if git diff --staged --quiet; then
+            echo "No feed changes to commit."
+          else
+            git commit -m "chore(data): automated clip-scout feed refresh [skip ci]"
+            git push
+          fi

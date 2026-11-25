@@ -1,0 +1,22 @@
+# Python / Virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local Clipper State (keep profile.example.json tracked; force fresh Stage 0 audit on new clones)
+profile.json
+.clipscout_verified
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

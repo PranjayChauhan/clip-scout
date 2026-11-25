@@ -1,0 +1,255 @@
+[
+  {
+    "id": "whop",
+    "name": "Whop Content Rewards",
+    "url": "https://whop.com/content-rewards/",
+    "model": "open_marketplace",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$0.50-$3.00",
+    "payout_methods": [
+      "whop_balance",
+      "stripe",
+      "bank_transfer",
+      "crypto",
+      "paypal"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts",
+      "x"
+    ],
+    "adapter_implemented": true,
+    "trust_notes": "Decentralized clipping & UGC bounty marketplace on Whop (10% platform fee; free for clippers). [Verified live clipping activity (signals: clip, content rewards, bounties)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "content_rewards",
+    "name": "Content Rewards",
+    "url": "https://contentrewards.com/",
+    "model": "open_marketplace",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$0.50-$3.00",
+    "payout_methods": [
+      "stripe",
+      "paypal",
+      "whop_balance"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts",
+      "x"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Dedicated Content Rewards clipping & UGC campaign portal. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "vyro",
+    "name": "Vyro",
+    "url": "https://vyro.com",
+    "model": "open_marketplace",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$1.00-$3.00+",
+    "payout_methods": [
+      "stripe",
+      "paypal"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Creator-backed short-form distribution & CPM clipping marketplace. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "clipping_net",
+    "name": "Clipping.net",
+    "url": "https://clipping.net",
+    "model": "open_marketplace",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$0.50-$3.00",
+    "payout_methods": [
+      "paypal",
+      "stripe",
+      "crypto"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Standalone clipping network for streamers, music labels, and consumer brands. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "clipster",
+    "name": "Clipster",
+    "url": "https://www.clipster.com/",
+    "model": "open_marketplace",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$1.00-$2.50",
+    "payout_methods": [
+      "stripe",
+      "paypal",
+      "bank_transfer"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Performance-based creator marketing & clipping campaign platform. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "promote_fun",
+    "name": "Promote.fun",
+    "url": "https://www.promote.fun/",
+    "model": "open_marketplace",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$0.20-$2.00+",
+    "payout_methods": [
+      "crypto",
+      "stripe"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts",
+      "x"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Performance-based creator campaign & promotional distribution marketplace. [Verified live clipping activity (signals: post content, get paid, creator campaigns, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "clipping_io",
+    "name": "Clipping.io",
+    "url": "https://www.clipping.io/",
+    "model": "managed_agency",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$0.50-$2.50",
+    "payout_methods": [
+      "paypal",
+      "bank_transfer",
+      "crypto"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Managed creator & brand clipping network with CPM payouts. [Verified live clipping activity (signals: clip, clipping, /1k, cpm)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "ssemble",
+    "name": "Ssemble Clip Rewards",
+    "url": "https://www.ssemble.com/clip-rewards",
+    "model": "native_program",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$0.50-$2.00",
+    "payout_methods": [
+      "paypal",
+      "stripe"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Native Clip Rewards marketplace integrated into Ssemble. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "picsart_clipping",
+    "name": "Picsart Clipping",
+    "url": "https://picsart.com/earn/clipping/",
+    "model": "native_program",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "$0.50-$2.50",
+    "payout_methods": [
+      "paypal",
+      "bank_transfer"
+    ],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Official Picsart creator clipping reward program. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "clipaffiliates",
+    "name": "ClipAffiliates",
+    "url": "https://clipaffiliates.com",
+    "model": "open_marketplace",
+    "status": "inactive",
+    "free_to_join": true,
+    "typical_rpm_range": "N/A",
+    "payout_methods": [],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Known shut-down platform retained as inactive regression sentinel. [Offline / unreachable (ConnectTimeout)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "clippingculture_com",
+    "name": "Start Clipping - Get Paid to Clip Videos",
+    "url": "https://clippingculture.com/start-clipping",
+    "model": "open_marketplace",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "Varies (live discovered)",
+    "payout_methods": [],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Independently discovered via live web search; audited by Stage 0 activity gate. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  },
+  {
+    "id": "findclout_com",
+    "name": "FindClout",
+    "url": "https://findclout.com/",
+    "model": "open_marketplace",
+    "status": "active",
+    "free_to_join": true,
+    "typical_rpm_range": "Varies (live discovered)",
+    "payout_methods": [],
+    "supported_socials": [
+      "tiktok",
+      "reels",
+      "shorts"
+    ],
+    "adapter_implemented": false,
+    "trust_notes": "Independently discovered via live web search; audited by Stage 0 activity gate. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
+    "last_verified": "2026-11-25T14:59:14Z"
+  }
+]
