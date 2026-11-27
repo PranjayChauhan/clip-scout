@@ -22,7 +22,7 @@
     ],
     "adapter_implemented": true,
     "trust_notes": "Decentralized clipping & UGC bounty marketplace on Whop (10% platform fee; free for clippers). [Verified live clipping activity (signals: clip, content rewards, bounties)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "content_rewards",
@@ -45,7 +45,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Dedicated Content Rewards clipping & UGC campaign portal. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "vyro",
@@ -66,7 +66,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Creator-backed short-form distribution & CPM clipping marketplace. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "clipping_net",
@@ -88,7 +88,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Standalone clipping network for streamers, music labels, and consumer brands. [Live host behind WAF/rate-limit (HTTP 429)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "clipster",
@@ -110,7 +110,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Performance-based creator marketing & clipping campaign platform. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "promote_fun",
@@ -132,7 +132,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Performance-based creator campaign & promotional distribution marketplace. [Verified live clipping activity (signals: post content, get paid, creator campaigns, campaign, campaigns)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "clipping_io",
@@ -154,7 +154,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Managed creator & brand clipping network with CPM payouts. [Verified live clipping activity (signals: clip, clipping, /1k, cpm)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "ssemble",
@@ -175,7 +175,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Native Clip Rewards marketplace integrated into Ssemble. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "picsart_clipping",
@@ -196,7 +196,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Official Picsart creator clipping reward program. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "clipaffiliates",
@@ -214,7 +214,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Known shut-down platform retained as inactive regression sentinel. [Offline / unreachable (ConnectTimeout)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "clippingculture_com",
@@ -232,7 +232,7 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Independently discovered via live web search; audited by Stage 0 activity gate. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   },
   {
     "id": "findclout_com",
@@ -250,6 +250,6 @@
     ],
     "adapter_implemented": false,
     "trust_notes": "Independently discovered via live web search; audited by Stage 0 activity gate. [Verified live clipping activity (signals: clip, clipping, campaign, campaigns)]",
-    "last_verified": "2026-11-26T19:26:38Z"
+    "last_verified": "2026-11-27T02:42:17Z"
   }
 ]
